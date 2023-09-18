@@ -564,8 +564,80 @@ body{
 
 /*section4*/
 #section4{
-    height: 821px;
+	height: 821px;
     background-color: #FFFEE6;
+}
+.inner_section4{
+	width:1320px;
+    margin: 0 auto;
+	height:821px;
+	position:relative;
+}
+.link{
+    float: right;
+    width: 400px;
+    margin-left: 20px;
+}
+.link ul li{
+	width:33.3%;
+	height:220px;
+	float:left;
+	box-sizing:border-box;
+}
+.link ul li a{
+	display:block;
+	height:220px;
+}
+.link ul li a img{
+    width: 100%;
+}
+.link h2{
+    font-family: Baskerville Old Face;
+    font-size: 60px;
+    font-weight: 200;
+    padding-top: 80px;
+}
+.link p{
+    font-weight: 200;
+}
+.link p span{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 25px 0 40px;
+}
+.link li p{
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 30px;
+}
+.img_wrap{
+    float: left;
+    width: 960px;
+}
+.link_button{
+    padding-top: 80px;
+}
+.img_slide{
+	position:relative;
+}
+.img1,.img2,.img3,.img4{
+	position:absolute;
+	top:0;
+	left:-155px;	
+	width: 960px;
+	height:821px;
+	background-size:cove;
+}
+.img1{
+	z-index:2;
+	background:url(../images/main/sub_4/black_bg.svg) no-repeat left center;
+}
+.img2{
+	background:url(../images/main/sub_4/brown_bg.svg) no-repeat left center;
+}
+.img3{
+	background:url(../images/main/sub_4/pupple_bg.svg) no-repeat left center;
 }
 
 /*section5*/
