@@ -700,6 +700,13 @@ body{
 }
 .footer_logo{
     width: 15%;
+    text-align: center;
+}
+.footer_sns{
+    padding-top: 10px;
+}
+.footer_sns a:nth-child(2){
+    padding: 0 15px;
 }
 .footer_link li{
     float: left;
@@ -711,4 +718,11 @@ body{
 }
 .footer_link li:nth-child(2) p{
     padding-top: 25px;
+}
+.top_bt{
+    position: absolute;
+    display:scroll;
+    position:fixed;
+    bottom:30px;
+    right:15px;
 }
