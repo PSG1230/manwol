@@ -31,7 +31,7 @@ body{
     color: #2B2F5C;
 }
 #wrap{
-    min-width: 1320px;
+    min-width: 1360px;
 }
 
 /*header*/
@@ -74,6 +74,7 @@ body{
     height: 750px;
     background: url(../images/main/banner/banner_bg.png) repeat center;
     text-align: center;
+    overflow: hidden;
 }
 .inner_banner{
     width: 1320px;
@@ -475,6 +476,7 @@ body{
 
 /*section2*/
 #section2{
+    overflow: hidden;
     height: 375px;
     background: url(../images/main/banner/banner_bg.png) repeat center;
 }
@@ -548,6 +550,7 @@ body{
 /*section3*/
 #section3{
     height: 1010px;
+    overflow: hidden;
 }
 .section3_text{
     padding-top: 630px;
