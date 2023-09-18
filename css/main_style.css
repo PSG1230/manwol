@@ -475,28 +475,30 @@ body{
 
 /*section2*/
 #section2{
-    height: 501px;
+    height: 375px;
     background: url(../images/main/banner/banner_bg.png) repeat center;
 }
 .inner_section2{
-    text-align: center;
+    width: 1320px;
+    height: 375px;
+    margin: 0 auto;
+    position: relative;
 }
 .section2_text{
-    height: 501px;
-    width: 1920px;
-    margin: 0 auto;
+    text-align: center;
+    width: 1320px;
+    height: 375px;
     background: url(../images/main/sub_2/bg.png);
-    background-color: yellow;
     display: inline-block;
 }
 .section2_text h3{
     font-family: Baskerville Old Face;
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 400;
-    padding-top: 125px;
+    padding-top: 75px;
 }
 .section2_text p:nth-child(2){
-    padding: 40px 0 10px;
+    padding: 10px 0 5px;
 }
 .section2_text p:nth-child(3){
     padding-bottom: 20px;
@@ -506,6 +508,42 @@ body{
     background-color: #FFC47A;
     display: inline-block;
     border-radius: 23px;
+}
+.section2_animation img{
+    position: absolute;
+    z-index: 3;
+}
+.section2_animation img:nth-child(1){
+    top: 0px;
+    left: -100px;
+}
+.section2_animation img:nth-child(2){
+    top: 0px;
+    right: -100px;
+}
+.section2_animation img:nth-child(3){
+    top: 80px;
+    left: 290px;
+}
+.section2_animation img:nth-child(4){
+    top: 315px;
+    right: 290px;
+}
+.section2_animation img:nth-child(5){
+    top: 270px;
+    left: 110px;
+}
+.section2_animation img:nth-child(6){
+    top: 310px;
+    left: 220px;
+}
+.section2_animation img:nth-child(7){
+    top: 100px;
+    right: 280px;
+}
+.section2_animation img:nth-child(8){
+    top: 250px;
+    right: 105px;
 }
 /*section3*/
 #section3{
