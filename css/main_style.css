@@ -71,17 +71,26 @@ body{
 
 /*banner*/
 #banner{
+    height: 830px;
+    overflow: hidden;
+    background-color: #FFFEE6;
+}
+.banner_bg{
     height: 750px;
     background: url(../images/main/banner/banner_bg.png) repeat center;
     text-align: center;
-    overflow: hidden;
 }
 .inner_banner{
     width: 1320px;
     margin: 0 auto;
     position: relative;
 }
-
+.banner_menu li:nth-child(4){
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
 /*banner_menu*/
 .banner_menu li{
     display: inline-block;
@@ -766,6 +775,7 @@ body{
     position:fixed;
     bottom:30px;
     right:15px;
+    z-index: 10;
 }
 .top_bt img{
     filter: drop-shadow(1px 2px 1px #61431b);
