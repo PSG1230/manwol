@@ -499,7 +499,7 @@ body{
     text-align: center;
     width: 1320px;
     height: 375px;
-    background: url(../images/main/sub_2/bg.png) center;
+    background: url(../images/main/sub_2/bg.png) no-repeat center;
     display: inline-block;
 }
 .section2_text h3{
