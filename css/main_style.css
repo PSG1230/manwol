@@ -365,11 +365,25 @@ body{
 #section1{
     background-color: #FFFEE6;
     height: 900px;
+    overflow: hidden;
 }
 .inner_section{
     width: 1320px;
     margin: 0 auto;
     padding-top: 200px;
+    position: relative;
+}
+.top_cloud img:nth-child(1){
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: -450px;
+}
+.top_cloud img:nth-child(2){
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    right: -450px;
 }
 .section_title{
     text-align: center;
