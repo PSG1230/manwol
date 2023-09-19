@@ -486,19 +486,19 @@ body{
 /*section2*/
 #section2{
     overflow: hidden;
-    height: 375px;
+    height: 347px;
     background: url(../images/main/banner/banner_bg.png) repeat center;
 }
 .inner_section2{
     width: 1320px;
-    height: 375px;
+    height: 347px;
     margin: 0 auto;
     position: relative;
 }
 .section2_text{
     text-align: center;
     width: 1320px;
-    height: 375px;
+    height: 347px;
     background: url(../images/main/sub_2/bg.png) no-repeat center;
     display: inline-block;
 }
