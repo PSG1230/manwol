@@ -486,7 +486,6 @@ body{
 /*section2*/
 #section2{
     overflow: hidden;
-    height: 347px;
     background: url(../images/main/banner/banner_bg.png) repeat center;
 }
 .inner_section2{
@@ -497,8 +496,7 @@ body{
 }
 .section2_text{
     text-align: center;
-    width: 1320px;
-    height: 347px;
+    width: 1300px;
     background: url(../images/main/sub_2/bg.png) no-repeat center;
     display: inline-block;
 }
@@ -537,20 +535,20 @@ body{
     left: 290px;
 }
 .section2_animation img:nth-child(4){
-    top: 315px;
+    top: 296px;
     right: 290px;
 }
 .section2_animation img:nth-child(5){
-    top: 270px;
+    top: 237px;
     left: 110px;
 }
 .section2_animation img:nth-child(6){
-    top: 310px;
+    top: 285px;
     left: 220px;
 }
 .section2_animation img:nth-child(7){
-    top: 100px;
-    right: 280px;
+    top: 117px;
+    right: 243px;
 }
 .section2_animation img:nth-child(8){
     top: 250px;
