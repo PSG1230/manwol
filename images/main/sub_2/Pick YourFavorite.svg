@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="253" height="116" viewBox="0 0 253 116">
+  <defs>
+    <filter id="Pick_Your_Favorite" x="0" y="0" width="253" height="116" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Pick_Your_Favorite)">
+    <text id="Pick_Your_Favorite-2" data-name="Pick Your
+Favorite" transform="translate(126 44)" fill="#191c31" font-size="43" font-family="BaskOldFace, Baskerville Old Face"><tspan x="-116.822" y="0">PICK YOUR</tspan><tspan x="-108.434" y="49">FAVORITE</tspan></text>
+  </g>
+</svg>
