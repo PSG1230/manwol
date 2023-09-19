@@ -486,7 +486,6 @@ body{
 /*section2*/
 #section2{
     overflow: hidden;
-    width: 1320px;
     height: 375px;
     background: url(../images/main/banner/banner_bg.png) repeat center;
 }
