@@ -44,6 +44,7 @@ body{
 #header{
     background-color: #FFFEE6;
     height: 100px;
+    overflow: hidden;
 }
 .inner_header{
     width: 1320px;
@@ -632,6 +633,7 @@ body{
 #section4{
 	height: 821px;
     background-color: #FFFEE6;
+    overflow: hidden;
 }
 .inner_section4{
 	width:1320px;
@@ -710,6 +712,7 @@ body{
 #section5{
     height: 860px;
     text-align: center;
+    overflow: hidden;
 }
 .inner_section5{
     width: 1320px;
