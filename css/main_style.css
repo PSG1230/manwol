@@ -1,16 +1,5 @@
 @charset "utf-8";
-@font-face {
-    font-family: 'EliceDigitalBaeum-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'EliceDigitalBaeum-Bd';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-Bd.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-}
+@import url("https://font.elice.io/css?family=Elice+Digital+Baeum");
 @font-face {
     font-family: 'yg-jalnan';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
@@ -32,7 +21,7 @@ html{
     font-size: 15px;
 }
 body{
-    font-family: 'EliceDigitalBaeum-Bd';
+    font-family: "Elice Digital Baeum", sans-serif;
     list-style: 30px;
     color: #2B2F5C;
 }
