@@ -1,7 +1,7 @@
 @charset "utf-8";
 @font-face {
-    font-family: 'EliceDigitalBaeum-Bd';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-regular.woff2') format('woff2');
+    font-family: 'EliceDigitalBaeum-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
 }
