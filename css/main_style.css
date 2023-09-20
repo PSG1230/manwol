@@ -1,7 +1,7 @@
 @charset "utf-8";
 @font-face {
     font-family: 'EliceDigitalBaeum-Bd';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-Bd.woff2') format('woff2');
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
 }
@@ -74,6 +74,7 @@ body{
     padding: 2px 10px;
     margin-right: 10px;
     font-size: 20px;
+    font-weight: bold;
 }
 
 /*banner*/
@@ -518,16 +519,11 @@ body{
     background: url(../images/main/sub_2/bg.png) no-repeat center;
     box-sizing: border-box;
 }
-.section2_text h2{
+.section2_text img{
     padding-top: 67px;
 }
-.section2_text p:nth-child(2){
-    padding: 10px 0 5px;
-    font-weight: 400;
-}
-.section2_text p:nth-child(3){
+.section2_text p {
     padding-bottom: 10px;
-    font-weight: 700;
 }
 .button{
     text-align: center;
@@ -535,6 +531,7 @@ body{
     background-color: #FFC47A;
     display: inline-block;
     border-radius: 23px;
+    font-weight: bold;
 }
 .section2_animation img{
     position: absolute;
@@ -645,6 +642,7 @@ body{
     float: right;
     width: 400px;
     margin-left: 20px;
+    line-height: 30px;
 }
 .link ul li{
 	width:33.3%;
