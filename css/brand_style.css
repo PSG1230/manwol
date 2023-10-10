@@ -1,0 +1,314 @@
+@charset "utf-8";
+@import url("https://font.elice.io/css?family=Elice+Digital+Baeum");
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HANBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/HANBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select {
+    padding: 0; 
+    margin: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #2B2F5C;
+} 
+html{
+    font-size: 15px;
+}
+body{
+    font-family: "Elice Digital Baeum", sans-serif;
+    list-style: 30px;
+    color: #2B2F5C;
+}
+#wrap{
+    min-width: 1360px;
+}
+
+/*header*/
+#header{
+    background-color: #FFFEE6;
+    height: 100px;
+}
+.inner_header{
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 610px;
+}
+.inner_header h1 img{
+    width: 80px;
+}
+.gnb{
+    text-align: center;
+}
+.gnb li{
+    display: inline-block;
+    padding-top: 35px;
+}
+.gnb li:nth-child(2),.gnb li:nth-child(3){
+    padding: 0 160px;
+}
+.gnb li a{
+    display: block;
+    padding: 2px 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*banner*/
+#banner{
+    color: white;
+    text-align: center;
+    height: 750px;
+    overflow: hidden;
+    background: url(../images/brand/banner.png) no-repeat center top #20202E;
+}
+.banner_title{
+    font-family: 'Baskerville Old Face';
+    font-size: 90px;
+    padding-top: 262px;
+    line-height: 102px;
+    text-shadow: 0px 6px 21px rgba(0, 0, 0, 0.7);
+    background: url(../images/main/moon.svg) no-repeat center top 155px;
+}
+#banner p:nth-child(2){
+    display: block;
+    font-size: 28px;
+    font-weight: 200;
+    text-shadow: 0px 6px 21px rgba(0, 0, 0, 0.7);
+}
+
+/*section1*/
+#section1{
+    height: 784px;
+    overflow: hidden;
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+}
+.title{
+    padding: 40px 0 40px;
+    margin-top: 40px;
+    background: url(../images/main/star/bling_black.svg) no-repeat center top;
+}
+#section1 p{
+    font-family: 'HANBatang';
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px 0;
+}
+.color{
+    height: 305px;
+}
+.color li{
+    float: left;
+    width: 635px;
+}
+
+/*section2*/
+#section2{
+    height: 1368px;
+    overflow: hidden;
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+.motipe_l{
+    text-align: left;
+}
+.motipe_r{
+    text-align: right;
+}
+.motipe li{
+    float: left;
+    width: 600px;
+    height: 528px;
+    padding-top: 87px;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+.motipe_l li img:nth-child(1){
+    position: absolute;
+    top: 178px;
+    left: 88px;
+    z-index: 5;
+}
+.motipe_l li img:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.motipe_title{
+    font-size: 60px;
+    font-family: 'HANBatang';
+    font-weight: bold;
+    padding-top: 133px;
+}
+.motipe li p:nth-child(2){
+    padding: 60px 0 30px;
+}
+.motipe_r .motipe_title{ 
+    padding-top: 217px;
+}
+.motipe_r li img:nth-child(1){
+    position: absolute;
+    top: 178px;
+    right: 88px;
+    z-index: 5;
+}
+.motipe_r li img:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    transform: scaleX(-1);
+}
+.motipe_r li:nth-child(1){
+    padding-right: 120px;
+}
+.motipe_l li:nth-child(2){
+    padding-left: 60px;
+}
+
+/*section3*/
+#section3{
+    height: 400px;
+    overflow: hidden;
+    text-align: center;
+    background: url(../images/brand/origin.png) no-repeat center;
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
+    color: white;
+}
+.section3_text{
+    padding-top: 30px;
+}
+.section3_text h2{
+    font-size: 60px;
+    font-family: 'Nanum Myeongjo', serif;
+    padding-bottom: 20px;
+}
+.section3_text p:nth-child(2){
+    padding-bottom: 30px;
+}
+.section3_text p{
+    font-size: 17px;
+    line-height: 30px;
+}
+
+/*section4*/
+#section4{
+    height: 1392px;
+    width: 1320px;
+    margin: 0 auto;
+}
+.inner_section4{
+    text-align: center;
+}
+.Therapy{
+    padding-top: 70px;
+    height: 300px;
+}
+.Therapy li{
+    float: left;
+    box-sizing: border-box;
+}
+.Therapy_l{text-align: left;}
+
+.Therapy_l li:nth-child(1){
+    width: 795px;
+}
+.Therapy_l li:nth-child(2){
+    width: 525px;
+    padding-left: 45px;
+}
+.Therapy_l li p:nth-child(1){
+    font-size: 40px;
+    padding: 20px 0 45px;
+    font-weight: bold;
+}
+.Therapy_l li p:nth-child(2){
+    line-height: 30px;
+}
+
+.Therapy_r{text-align: right;}
+.Therapy_r li:nth-child(2){
+    width: 795px;
+}
+.Therapy_r li:nth-child(1){
+    width: 525px;
+    padding-right: 45px;
+}
+.Therapy_r li p:nth-child(1){
+    font-size: 40px;
+    padding: 20px 0 45px;
+    font-weight: bold;
+}
+.Therapy_r li p:nth-child(2){
+    line-height: 30px;
+}
+
+
+
+/*footer*/
+#footer{
+    height: 352px;
+    background-color: #20202E;
+}
+.inner_footer{
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+.footer_logo{
+    width: 15%;
+    text-align: center;
+}
+.footer_sns{
+    padding-top: 10px;
+}
+.footer_sns a:nth-child(2){
+    padding: 0 15px;
+}
+.footer_link li{
+    float: left;
+}
+.footer_link li:nth-child(2){
+    color: #FDD08F;
+    padding-left: 50px;
+    font-weight: 100;
+}
+.footer_link li:nth-child(2) p{
+    padding-top: 25px;
+}
+.top_bt{
+    position: absolute;
+    display:scroll;
+    position:fixed;
+    bottom:30px;
+    right:15px;
+    z-index: 10;
+}
+.top_bt img{
+    filter: drop-shadow(1px 2px 1px #61431b);
+}
