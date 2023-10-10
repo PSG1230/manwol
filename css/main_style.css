@@ -522,6 +522,9 @@ body{
     border-radius: 23px;
     font-weight: bold;
 }
+.button p{
+    display: inline-block;
+}
 .section2_animation img{
     position: absolute;
     z-index: 3;
