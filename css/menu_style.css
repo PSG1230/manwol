@@ -250,6 +250,7 @@ body{
     padding: 30px;
     font-size: 18px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 .drink, .dessert{
     overflow: hidden;
