@@ -76,7 +76,7 @@ body{
     text-align: center;
     height: 680px;
     overflow: hidden;
-    background: url(../images/menu/banner.svg) no-repeat center top #20202E;
+    background: url(../images/menu/banner.png) no-repeat center top #20202E;
 }
 .banner_title{
     font-family: 'Baskerville Old Face';
