@@ -219,6 +219,7 @@ body{
     height: 1392px;
     width: 1320px;
     margin: 0 auto;
+    overflow: hidden;
 }
 .inner_section4{
     text-align: center;
