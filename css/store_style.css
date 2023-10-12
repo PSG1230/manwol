@@ -79,11 +79,7 @@ body{
     background: url(../images/store/banner.png) no-repeat center top #20202E;
 }
 .banner_title{
-    font-family: 'Baskerville Old Face';
-    font-size: 90px;
     padding-top: 267px;
-    line-height: 114px;
-    text-shadow: 0px 6px 21px rgba(0, 0, 0, 0.7);
     background: url(../images/store/banner_icon.svg) no-repeat center top 214px;
 }
 #banner p{
