@@ -85,11 +85,7 @@ body{
     height: 750px;
 }
 .banner_title{
-    font-family: 'Baskerville Old Face';
-    font-size: 90px;
     padding-top: 275px;
-    line-height: 114px;
-    text-shadow: 0px 6px 21px rgba(0, 0, 0, 0.7);
     background: url(../images/membership/banner/present.png) no-repeat center top 210px;
 }
 #banner p:nth-child(2){
