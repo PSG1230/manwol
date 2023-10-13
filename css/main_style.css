@@ -437,6 +437,9 @@ body{
 .screen_img{
     height: 310px;
 }
+.screen:hover{
+    font-weight: bold;
+}
 .coffee1:hover,.coffee6:hover{
     background: url(../images/main/sub_1/hover_5.png) no-repeat center top;
     background-size: 70%;
@@ -632,9 +635,14 @@ body{
 }
 .link{
     float: right;
-    width: 400px;
-    margin-left: 20px;
+    width: 530px;
     line-height: 30px;
+}
+.link h2{
+    padding-top: 65px;
+}
+.link h2, .link p{
+    margin-left: 35px;
 }
 .link ul li{
 	width:33.3%;
@@ -650,6 +658,7 @@ body{
     width: 100%;
 }
 .link p{
+    font-size: 17px;
     font-weight: 200;
 }
 .link p span{
@@ -670,13 +679,24 @@ body{
 .link_button{
     padding-top: 80px;
 }
+.link_button li a img{
+    padding: 10px;
+    box-sizing: border-box;
+}
+.link_button li #button1:hover,
+.link_button li #button2:hover,
+.link_button li #button3:hover{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
 .img_slide{
 	position:relative;
 }
 .img1,.img2,.img3,.img4{
 	position:absolute;
 	top:0;
-	left:-155px;	
+	left:-300px;	
 	width: 960px;
 	height:821px;
 	background-size:cove;
