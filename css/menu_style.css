@@ -216,14 +216,14 @@ body{
 .link_button li #button1,
 .link_button li #button2,
 .link_button li #button3{
-    transform: scale(70%);
+    transform: scale(100%);
     transition: all linear 0.1s;
 }
 
 .link_button li #button1:hover,
 .link_button li #button2:hover,
 .link_button li #button3:hover{
-    transform: scale(100%);
+    transform: scale(130%);
 }
 .img_slide{
 	position:relative;
