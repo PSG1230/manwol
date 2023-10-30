@@ -84,9 +84,9 @@ body{
     background: url(../images/brand/banner.png) no-repeat center top #20202E;
 }
 .banner_title{
-    padding: 280px 0 15px;
+    padding: 270px 0 15px;
     background-size: 50px;
-    background-position: center top 205px;
+    background-position: center top 190px;
     background-repeat: no-repeat;
     background-image: url(../images/main/moon.svg);
 }
