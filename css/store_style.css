@@ -58,29 +58,34 @@ body{
 }
 .gnb li{
     display: inline-block;
-    padding-top: 35px;
+    margin-top: 35px;
+    margin-right: 10px;
+    padding: 0 10px 25px 10px;
 }
 .gnb li:nth-child(2),.gnb li:nth-child(3){
-    padding: 0 160px;
+    margin: 0 160px;
+}
+.gnb li:hover{
+    border-bottom: #FF870E 7px solid;
 }
 .gnb li a{
     display: block;
     padding: 2px 10px;
-    margin-right: 10px;
     font-size: 20px;
     font-weight: bold;
 }
+
 /*banner*/
 #banner{
     color: white;
     text-align: center;
-    height: 680px;
+    height: 750px;
     overflow: hidden;
     background: url(../images/store/banner.png) no-repeat center top #20202E;
 }
 .banner_title{
-    padding-top: 267px;
-    background: url(../images/store/banner_icon.svg) no-repeat center top 214px;
+    padding-top: 275px;
+    background: url(../images/store/banner_icon.svg) no-repeat center top 210px;
 }
 #banner p{
     display: block;
