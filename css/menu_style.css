@@ -311,7 +311,7 @@ body{
 .section_4{
     position: relative;
 }
-.title img:nth-child(2){
+.dessert_title img:nth-child(3){
     position: absolute;
     top: 40px;
     left: -290px;
