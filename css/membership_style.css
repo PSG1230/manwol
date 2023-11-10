@@ -942,9 +942,8 @@ button.swiper-pagination-bullet {
 
 /*section3*/
 #section3{
-    height: 1300px;
     width: 1320px;
-    margin: 0 auto;
+    margin: 20px auto 280px;
     text-align: center;
     overflow: hidden;
 }
