@@ -750,6 +750,45 @@ body{
 .social_l li a, .social_r li a{
     display: block;
 }
+.social_l li:nth-child(1) a img{
+    border-radius: 0 100px 0 0;
+}
+.social_r li:nth-child(1) a img{
+    border-radius: 100px 0 0 0;
+}
+.social_m a img{
+    border-radius: 100px 100px 0 0;
+}
+.social_l li a img{
+    transition: all 0.3s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 16%);
+}
+.social_r li a img{
+    transition: all 0.3s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 16%);
+}
+.social_m a img{
+    transition: all 0.3s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 16%);
+}
+.social_l li a img{
+    transform: scale(0.9);
+}
+.social_l li a img:hover{
+    transform: scale(1);
+}
+.social_r li a img{
+    transform: scale(0.9);
+}
+.social_r li a img:hover{
+    transform: scale(1);
+}
+.social_m a img{
+    transform: scale(0.9);
+}
+.social_m a img:hover{
+    transform: scale(1);
+}
 .section5_bg img:nth-child(1){
     position: absolute;
     top: 258px;
