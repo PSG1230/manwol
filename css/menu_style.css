@@ -275,6 +275,58 @@ body{
     overflow: hidden;
 }
 .drink li, .dessert li{
+    position: relative;
+    vertical-align: middle;
+    content: "";
+    display: inline-block;
+}
+/*popup*/
+.close_btn{
+    display: inline-block;
+    background-color: #ddd;
+    padding: 6px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    vertical-align: middle;
+    content: "";
+    display: inline-block;
+}
+.popup{
+    background-color: rgba(255, 255, 255,70%);
+    width: 270px;
+    height: 290px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.popup h3{
+    padding-top: 20px;
+}
+/*popup_position*/
+.pop_1, .pop_2, .pop_3, .pop_4,
+.pop_5, .pop_6, .pop_7, .pop_8, .pop_9,
+.pop_10,.pop_11,.pop_12{
+    position: absolute;
+    top: 56px;
+    left: 15px;
+    vertical-align: middle;
+    content: "";
+    display: inline-block;
+}
+.pop_13, .pop_14, .pop_15, .pop_16{
+    margin-top: 27px;
+}
+.pop_13, .pop_14, .pop_15, .pop_16, 
+.pop_17, .pop_18, .pop_19, .pop_20,.pop_21,
+.pop_22, .pop_23, .pop_24{
+    position: absolute;
+    top: 27px;
+    left: 15px;
+    vertical-align: middle;
+    content: "";
+    display: inline-block;
+}
+
+.drink li, .dessert li{
     float: left;
     width: 22.4%;
     margin-right: 3.33%;
